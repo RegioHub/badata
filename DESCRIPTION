@@ -1,0 +1,15 @@
+Package: badata
+Title: Data from the Bundesagentur für Arbeit (BA)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Long", "Nguyen", , "long.nguyen@uni-bielefeld.de", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-8878-7386"))
+Description: Provides data about unemployed persons, employees, and jobs
+    in Germany from 2012 to 2021 by district (Kreis) and occupational group.
+License: MIT + file LICENSE
+Depends: 
+    R (>= 2.10)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
