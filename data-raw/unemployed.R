@@ -46,6 +46,6 @@ unemployed_foreigners <- read_sheet(xlsx, 3, c("total", "women"))
 
 usethis::use_data(unemployed_foreigners, overwrite = TRUE)
 
-jobs <- read_sheet(xlsx, 4, c("total", "social insurance"))
+jobs <- read_sheet(xlsx, 4, c("total", "social_insurance"))
 
 usethis::use_data(jobs, overwrite = TRUE)

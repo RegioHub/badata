@@ -14,3 +14,10 @@
 
 #' @rdname unemployed
 "unemployed_foreigners"
+
+#' Data about employees
+#' @rdname employees
+"employees_by_workplace"
+
+#' @rdname employees
+"employees_by_residence"
