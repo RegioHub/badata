@@ -1,0 +1,60 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+
+library(tibble)
+```
+
+# badata
+
+<!-- badges: start -->
+<!-- [![CRAN status](https://www.r-pkg.org/badges/version/badata)](https://CRAN.R-project.org/package=badata) -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+<!-- badges: end -->
+
+**badata** is a data package that provides data from the Bundesagentur für Arbeit (BA) about unemployed persons, employees, and jobs in Germany from 2012 to 2021 by district (Kreis) and occupational group.
+
+## Installation
+
+You can install the development version of **badata** from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("long39ng/badata")
+```
+
+## Usage
+
+**badata** provides the following datasets as `tibbles`/`data.frames`:
+
+```{r}
+library(badata)
+
+employees_by_workplace
+
+employees_by_residence
+
+unemployed_total
+
+unemployed_foreigners
+
+jobs
+```
+
+Codes and full names of regions and occupational groups can be looked up in the respective tables:
+
+```{r}
+region_codes
+
+occupational_group_codes
+```
