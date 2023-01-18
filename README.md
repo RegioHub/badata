@@ -148,3 +148,9 @@ occupational_group_codes
 #> 10 211   Berg-, Tagebau und Sprengtechnik        
 #> # … with 135 more rows
 ```
+
+[https://statistik.arbeitsagentur.de/](https://statistik.arbeitsagentur.de/)
+Variable names have been translated from German to English, the data 
+itself remains the same and is copyrighted by the 'Bundesagentur für 
+Arbeit'.
+© Statistik der Bundesagentur für Arbeit
