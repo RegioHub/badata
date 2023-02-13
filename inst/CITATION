@@ -1,0 +1,17 @@
+year <- format(Sys.time(), "%Y")
+url <- unlist(strsplit(meta$URL, ","))[1]
+
+bibentry(
+  bibtype = "Manual",
+  header = paste0("To cite package '", meta$Package, "' in publications use:"),
+  title = paste0("{", meta$Package, "}: ", meta$Title),
+  author = c(person("H. Long", "Nguyen")),
+  year = year,
+  version = meta$Version,
+  url = url,
+  textVersion = paste0(
+    "Nguyen HL (", year, "). {badata}: ",
+    meta$Title, ". <",
+    url, ">"
+  )
+)
