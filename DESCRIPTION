@@ -1,10 +1,13 @@
 Package: badata
 Title: Regional Job Market Data from the German Federal Employment Agency
     (Bundesagentur für Arbeit -- BA)
-Version: 0.1.0
-Authors@R: 
+Version: 0.1.1
+Authors@R: c(
     person("H. Long", "Nguyen", , "long.nguyen@uni-bielefeld.de", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0001-8878-7386"))
+           comment = c(ORCID = "0000-0001-8878-7386")),
+    person("Dorian", "Tsolak", , "dorian.tsolak@uni-bielefeld.de", role = "aut",
+           comment = c(ORCID = "0000-0001-6695-6169"))
+  )
 Description: Provides data about unemployed persons, employees, and jobs
     in Germany from 2012 to 2021 by district (Kreis) and occupational
     group.

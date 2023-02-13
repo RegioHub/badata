@@ -7,12 +7,12 @@ bibentry(
   header = paste0("To cite package '", meta$Package, "' in publications use:"),
   title = paste0("{", meta$Package, "}: ", meta$Title),
   doi = doi,
-  author = c(person("H. Long", "Nguyen")),
+  author = c(person("H. Long", "Nguyen"), person("Dorian", "Tsolak")),
   year = year,
   version = meta$Version,
   url = url,
   textVersion = paste0(
-    "Nguyen HL (", year, "). {badata}: ",
+    "Nguyen HL, Tsolak D (", year, "). {badata}: ",
     meta$Title, ". <https://doi.org/", doi, ">, <",
     url, ">"
   )
