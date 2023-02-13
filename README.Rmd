@@ -22,11 +22,11 @@ library(tibble)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-**badata** is a data package that provides data from the Bundesagentur für Arbeit (BA) about unemployed persons, employees, and jobs in Germany from 2012 to 2021 by district (Kreis) and occupational group.
+**badata** is a data package that provides data from the German Federal Employment Agency (Bundesagentur für Arbeit -- BA) about unemployed persons, employees, and jobs in Germany from 2012 to 2021 by district (Kreis) and occupational group.
 
 ## Installation
 
-You can install the development version of **badata** from [GitHub](https://github.com/) with:
+You can install the development version of **badata** from [GitHub](https://github.com/long39ng/badata) with:
 
 ``` r
 # install.packages("devtools")
@@ -58,3 +58,9 @@ region_codes
 
 occupational_group_codes
 ```
+
+## Disclaimer
+
+The variable names were translated from German into English, the data itself remains unchanged and is subject to the copyright of the German Federal Employment Agency (BA). © [Statistik der Bundesagentur für Arbeit](https://statistik.arbeitsagentur.de)
+
+This package is in no way officially related to or endorsed by BA.
