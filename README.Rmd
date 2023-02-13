@@ -60,6 +60,18 @@ region_codes
 occupational_group_codes
 ```
 
+## Citation
+
+```{r echo=FALSE, results='asis'}
+print(citation("badata"), bibtex = FALSE)
+```
+
+A BibTeX entry for LaTeX users is
+
+```{r echo=FALSE, comment=""}
+toBibtex(citation("badata"))
+```
+
 ## Disclaimer
 
 The variable names were translated from German into English, the data itself remains unchanged and is subject to the copyright of the German Federal Employment Agency (BA). © [Statistik der Bundesagentur für Arbeit](https://statistik.arbeitsagentur.de)
