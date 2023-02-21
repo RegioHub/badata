@@ -19,11 +19,11 @@ persons, employees, and jobs in Germany from 2012 to 2021 by district
 ## Installation
 
 You can install the development version of **badata** from
-[GitHub](https://github.com/long39ng/badata) with:
+[GitHub](https://github.com/RegioHub/badata) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("long39ng/badata")
+devtools::install_github("RegioHub/badata")
 ```
 
 ## Usage
@@ -158,7 +158,7 @@ To cite package ‘badata’ in publications use:
 Nguyen HL, Tsolak D (2023). {badata}: Regional Job Market Data from the
 German Federal Employment Agency (Bundesagentur für Arbeit – BA).
 <https://doi.org/10.5281/zenodo.7636115>,
-<https://github.com/long39ng/badata>
+<https://github.com/RegioHub/badata>
 
 A BibTeX entry for LaTeX users is
 
@@ -169,7 +169,7 @@ A BibTeX entry for LaTeX users is
       author = {H. Long Nguyen and Dorian Tsolak},
       year = {2023},
       version = {0.1.1},
-      url = {https://github.com/long39ng/badata},
+      url = {https://github.com/RegioHub/badata},
     }
 
 ## Disclaimer

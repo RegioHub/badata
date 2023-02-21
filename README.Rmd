@@ -27,11 +27,11 @@ library(tibble)
 
 ## Installation
 
-You can install the development version of **badata** from [GitHub](https://github.com/long39ng/badata) with:
+You can install the development version of **badata** from [GitHub](https://github.com/RegioHub/badata) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("long39ng/badata")
+devtools::install_github("RegioHub/badata")
 ```
 
 ## Usage

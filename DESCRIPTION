@@ -12,8 +12,8 @@ Description: Provides data about unemployed persons, employees, and jobs
     in Germany from 2012 to 2021 by district (Kreis) and occupational
     group.
 License: MIT + file LICENSE
-URL: https://github.com/long39ng/badata
-BugReports: https://github.com/long39ng/badata/issues
+URL: https://github.com/RegioHub/badata
+BugReports: https://github.com/RegioHub/badata/issues
 Depends: 
     R (>= 2.10)
 Encoding: UTF-8
