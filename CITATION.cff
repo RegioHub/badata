@@ -1,0 +1,64 @@
+# -----------------------------------------------------------
+# CITATION file created with {cffr} R package, v0.4.1
+# See also: https://docs.ropensci.org/cffr/
+# -----------------------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "badata" in publications use:'
+type: software
+license: MIT
+title: 'badata: Regional Job Market Data from the German Federal Employment Agency
+  (Bundesagentur für Arbeit -- BA)'
+version: 0.1.2
+doi: 10.5281/zenodo.7636114
+abstract: Provides data about unemployed persons, employees, and jobs in Germany from
+  2012 to 2021 by district (Kreis) and occupational group.
+authors:
+- family-names: Nguyen
+  given-names: H. Long
+  email: long.nguyen@uni-bielefeld.de
+  orcid: https://orcid.org/0000-0001-8878-7386
+- family-names: Tsolak
+  given-names: Dorian
+  email: dorian.tsolak@uni-bielefeld.de
+  orcid: https://orcid.org/0000-0001-6695-6169
+preferred-citation:
+  type: manual
+  title: 'badata: Regional Job Market Data from the German Federal Employment Agency
+    (Bundesagentur für Arbeit -- BA)'
+  authors:
+  - family-names: Nguyen
+    given-names: H. Long
+    email: long.nguyen@uni-bielefeld.de
+    orcid: https://orcid.org/0000-0001-8878-7386
+  - family-names: Tsolak
+    given-names: Dorian
+    email: dorian.tsolak@uni-bielefeld.de
+    orcid: https://orcid.org/0000-0001-6695-6169
+  doi: 10.5281/zenodo.7636114
+  year: '2023'
+  version: 0.1.2
+  url: https://github.com/RegioHub/badata
+repository-code: https://github.com/RegioHub/badata
+url: https://github.com/RegioHub/badata
+contact:
+- family-names: Nguyen
+  given-names: H. Long
+  email: long.nguyen@uni-bielefeld.de
+  orcid: https://orcid.org/0000-0001-8878-7386
+keywords:
+- r-package
+- rstats
+references:
+- type: software
+  title: 'R: A Language and Environment for Statistical Computing'
+  notes: Depends
+  url: https://www.R-project.org/
+  authors:
+  - name: R Core Team
+  location:
+    name: Vienna, Austria
+  year: '2023'
+  institution:
+    name: R Foundation for Statistical Computing
+  version: '>= 2.10'

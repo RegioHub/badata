@@ -157,7 +157,7 @@ To cite package ‘badata’ in publications use:
 
 Nguyen HL, Tsolak D (2023). {badata}: Regional Job Market Data from the
 German Federal Employment Agency (Bundesagentur für Arbeit – BA).
-<https://doi.org/10.5281/zenodo.7636115>,
+<https://doi.org/10.5281/zenodo.7636114>,
 <https://github.com/RegioHub/badata>
 
 A BibTeX entry for LaTeX users is
@@ -165,7 +165,7 @@ A BibTeX entry for LaTeX users is
     @Manual{,
       title = {{badata}: Regional Job Market Data from the German Federal Employment Agency
     (Bundesagentur für Arbeit -- BA)},
-      doi = {10.5281/zenodo.7636115},
+      doi = {10.5281/zenodo.7636114},
       author = {H. Long Nguyen and Dorian Tsolak},
       year = {2023},
       version = {0.1.1},
