@@ -1,7 +1,7 @@
-# -----------------------------------------------------------
-# CITATION file created with {cffr} R package, v0.4.1
+# ------------------------------------------------
+# CITATION.cff file created with {cffr} R package
 # See also: https://docs.ropensci.org/cffr/
-# -----------------------------------------------------------
+# ------------------------------------------------
  
 cff-version: 1.2.0
 message: 'To cite package "badata" in publications use:'
@@ -9,10 +9,10 @@ type: software
 license: MIT
 title: 'badata: Regional Job Market Data from the German Federal Employment Agency
   (Bundesagentur für Arbeit -- BA)'
-version: 0.1.2
+version: 0.2.0
 doi: 10.5281/zenodo.7636114
 abstract: Provides data about unemployed persons, employees, and jobs in Germany from
-  2012 to 2021 by district (Kreis) and occupational group.
+  2012 to 2025 by district (Kreis) and occupational group.
 authors:
 - family-names: Nguyen
   given-names: H. Long
@@ -22,6 +22,9 @@ authors:
   given-names: Dorian
   email: dorian.tsolak@uni-bielefeld.de
   orcid: https://orcid.org/0000-0001-6695-6169
+- family-names: Wandel
+  given-names: Konstantin
+  email: konstantin.wandel@uni-bielefeld.de
 preferred-citation:
   type: manual
   title: 'badata: Regional Job Market Data from the German Federal Employment Agency
@@ -35,12 +38,15 @@ preferred-citation:
     given-names: Dorian
     email: dorian.tsolak@uni-bielefeld.de
     orcid: https://orcid.org/0000-0001-6695-6169
+  - family-names: Wandel
+    given-names: Konstantin
+    email: konstantin.wandel@uni-bielefeld.de
   doi: 10.5281/zenodo.7636114
-  year: '2023'
-  version: 0.1.2
+  year: '2026'
+  version: 0.2.0
   url: https://github.com/RegioHub/badata
 repository-code: https://github.com/RegioHub/badata
-url: https://github.com/RegioHub/badata
+url: https://regiohub.github.io/badata/
 contact:
 - family-names: Nguyen
   given-names: H. Long
@@ -56,9 +62,9 @@ references:
   url: https://www.R-project.org/
   authors:
   - name: R Core Team
-  location:
-    name: Vienna, Austria
-  year: '2023'
   institution:
     name: R Foundation for Statistical Computing
-  version: '>= 2.10'
+    address: Vienna, Austria
+  year: '2026'
+  version: '>= 3.5'
+
