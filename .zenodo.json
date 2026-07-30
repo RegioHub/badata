@@ -1,0 +1,24 @@
+{
+  "title": "badata: Regional Job Market Data from the German Federal Employment Agency (Bundesagentur für Arbeit -- BA)",
+  "description": "Provides data about unemployed persons, employees, and jobs in Germany from 2012 to 2025 by district (Kreis) and occupational group.",
+  "creators": [
+    {
+      "name": "Nguyen, H. Long",
+      "affiliation": "German Center for Integration and Migration Research (DeZIM)",
+      "orcid": "0000-0001-8878-7386"
+    },
+    {
+      "name": "Tsolak, Dorian",
+      "affiliation": "Landesanstalt für Medien NRW",
+      "orcid": "0000-0001-6695-6169"
+    },
+    {
+      "name": "Wandel, Konstantin",
+      "affiliation": "Leibniz ScienceCampus SOEP RegioHub, Bielefeld University"
+    }
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "keywords": ["r-package", "rstats", "labor market", "Germany"]
+}

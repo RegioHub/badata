@@ -4,6 +4,8 @@
 ^data-raw$
 ^README\.Rmd$
 ^CITATION\.cff$
+^\.zenodo\.json$
+^CLAUDE\.md$
 ^\.github$
 ^_pkgdown\.yml$
 ^docs$
