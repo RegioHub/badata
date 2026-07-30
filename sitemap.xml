@@ -1,33 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://regiohub.github.io/badata/404.html</loc>
-  </url>
-  <url>
-    <loc>https://regiohub.github.io/badata/LICENSE-text.html</loc>
-  </url>
-  <url>
-    <loc>https://regiohub.github.io/badata/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>https://regiohub.github.io/badata/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://regiohub.github.io/badata/index.html</loc>
-  </url>
-  <url>
-    <loc>https://regiohub.github.io/badata/reference/employees.html</loc>
-  </url>
-  <url>
-    <loc>https://regiohub.github.io/badata/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://regiohub.github.io/badata/reference/jobs.html</loc>
-  </url>
-  <url>
-    <loc>https://regiohub.github.io/badata/reference/occupation_region_codes.html</loc>
-  </url>
-  <url>
-    <loc>https://regiohub.github.io/badata/reference/unemployed.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://regiohub.github.io/badata/404.html</loc></url>
+<url><loc>https://regiohub.github.io/badata/LICENSE-text.html</loc></url>
+<url><loc>https://regiohub.github.io/badata/LICENSE.html</loc></url>
+<url><loc>https://regiohub.github.io/badata/authors.html</loc></url>
+<url><loc>https://regiohub.github.io/badata/index.html</loc></url>
+<url><loc>https://regiohub.github.io/badata/reference/employees.html</loc></url>
+<url><loc>https://regiohub.github.io/badata/reference/index.html</loc></url>
+<url><loc>https://regiohub.github.io/badata/reference/jobs.html</loc></url>
+<url><loc>https://regiohub.github.io/badata/reference/occupation_region_codes.html</loc></url>
+<url><loc>https://regiohub.github.io/badata/reference/unemployed.html</loc></url>
 </urlset>
+
