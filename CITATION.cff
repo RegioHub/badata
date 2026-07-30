@@ -25,6 +25,7 @@ authors:
 - family-names: Wandel
   given-names: Konstantin
   email: konstantin.wandel@uni-bielefeld.de
+  orcid: https://orcid.org/0009-0007-3321-7774
 preferred-citation:
   type: manual
   title: 'badata: Regional Job Market Data from the German Federal Employment Agency
@@ -41,6 +42,7 @@ preferred-citation:
   - family-names: Wandel
     given-names: Konstantin
     email: konstantin.wandel@uni-bielefeld.de
+    orcid: https://orcid.org/0009-0007-3321-7774
   doi: 10.5281/zenodo.7636114
   year: '2026'
   version: 0.2.0

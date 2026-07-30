@@ -7,7 +7,8 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-8878-7386")),
     person("Dorian", "Tsolak", , "dorian.tsolak@uni-bielefeld.de", role = "aut",
            comment = c(ORCID = "0000-0001-6695-6169")),
-    person("Konstantin", "Wandel", , "konstantin.wandel@uni-bielefeld.de", role = "aut")
+    person("Konstantin", "Wandel", , "konstantin.wandel@uni-bielefeld.de", role = "aut",
+           comment = c(ORCID = "0009-0007-3321-7774"))
   )
 Description: Provides data about unemployed persons, employees, and jobs
     in Germany from 2012 to 2025 by district (Kreis) and occupational
