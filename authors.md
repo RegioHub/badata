@@ -12,7 +12,7 @@
 ## Citation
 
 Source:
-[`inst/CITATION`](https://github.com/RegioHub/badata/blob/main/inst/CITATION)
+[`inst/CITATION`](https://github.com/RegioHub/badata/blob/v0.2.0/inst/CITATION)
 
 Nguyen HL, Tsolak D, Wandel K (2026). {badata}: Regional Job Market Data
 from the German Federal Employment Agency (Bundesagentur für Arbeit --
