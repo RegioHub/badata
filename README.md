@@ -156,9 +156,9 @@ occupational_group_codes
 
 To cite package ‘badata’ in publications use:
 
-Nguyen HL, Tsolak D (2026). {badata}: Regional Job Market Data from the
-German Federal Employment Agency (Bundesagentur für Arbeit – BA).
-<https://doi.org/10.5281/zenodo.7636114>,
+Nguyen HL, Tsolak D, Wandel K (2026). {badata}: Regional Job Market Data
+from the German Federal Employment Agency (Bundesagentur für Arbeit –
+BA). <https://doi.org/10.5281/zenodo.7636114>,
 <https://github.com/RegioHub/badata>
 
 A BibTeX entry for LaTeX users is
@@ -167,7 +167,7 @@ A BibTeX entry for LaTeX users is
       title = {{badata}: Regional Job Market Data from the German Federal Employment Agency
     (Bundesagentur für Arbeit -- BA)},
       doi = {10.5281/zenodo.7636114},
-      author = {H. Long Nguyen and Dorian Tsolak},
+      author = {H. Long Nguyen and Dorian Tsolak and Konstantin Wandel},
       year = {2026},
       version = {0.2.0},
       url = {https://github.com/RegioHub/badata},

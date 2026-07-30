@@ -24,11 +24,19 @@ codes_with_names <- readxl::read_xlsx(
   map(discard, .p = \(x) is.na(x) || x == "Insgesamt") |>
   map(unique)
 
+parse_code_name <- function(x) {
+  split <- strsplit(x, split = "(?<=\\d)\\s", perl = TRUE)
+  has_code <- lengths(split) == 2
+  dplyr::tibble(
+    code = ifelse(has_code, map_chr(split, 1, .default = NA_character_), NA_character_),
+    # Entries with no leading code (e.g. "ohne Angabe zum Zielberuf") keep
+    # their full text as the name and get code = NA.
+    name = ifelse(has_code, map_chr(split, 2, .default = NA_character_), x)
+  )
+}
+
 region_occupation_codes <- codes_with_names |>
-  map(strsplit, split = "(?<=\\d)\\s", perl = TRUE) |>
-  map(do.call, what = rbind) |>
-  map(`colnames<-`, value = c("code", "name")) |>
-  map(dplyr::as_tibble)
+  map(parse_code_name)
 
 region_codes <- region_occupation_codes$regions
 
