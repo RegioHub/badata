@@ -4,6 +4,7 @@
 # badata
 
 <!-- badges: start -->
+
 <!-- [![CRAN status](https://www.r-pkg.org/badges/version/badata)](https://CRAN.R-project.org/package=badata) -->
 
 [![DOI](https://zenodo.org/badge/584811775.svg)](https://zenodo.org/badge/latestdoi/584811775)
@@ -34,39 +35,39 @@ devtools::install_github("RegioHub/badata")
 library(badata)
 
 employees_by_workplace
-#> # A tibble: 2,131,200 × 6
+#> # A tibble: 4,410,198 × 6
 #>    region occupational_group  year type               group          n
 #>    <chr>  <chr>              <int> <chr>              <chr>      <dbl>
-#>  1 01001  111                 2016 social insurance   total        185
-#>  2 01001  111                 2016 social insurance   foreigners    NA
-#>  3 01001  111                 2016 social insurance   women         62
-#>  4 01001  111                 2016 marginal part-time total          8
-#>  5 01001  111                 2016 marginal part-time foreigners    NA
-#>  6 01001  111                 2016 marginal part-time women         NA
-#>  7 01001  111                 2017 social insurance   total         62
-#>  8 01001  111                 2017 social insurance   foreigners     0
-#>  9 01001  111                 2017 social insurance   women         12
-#> 10 01001  111                 2017 marginal part-time total         13
-#> # … with 2,131,190 more rows
+#>  1 01001  111                 2013 social insurance   total         36
+#>  2 01001  111                 2013 social insurance   foreigners    NA
+#>  3 01001  111                 2013 social insurance   women          9
+#>  4 01001  111                 2013 marginal part-time total          6
+#>  5 01001  111                 2013 marginal part-time foreigners     0
+#>  6 01001  111                 2013 marginal part-time women         NA
+#>  7 01001  111                 2014 social insurance   total         34
+#>  8 01001  111                 2014 social insurance   foreigners    NA
+#>  9 01001  111                 2014 social insurance   women          8
+#> 10 01001  111                 2014 marginal part-time total          5
+#> # ℹ 4,410,188 more rows
 
 employees_by_residence
-#> # A tibble: 2,131,200 × 6
+#> # A tibble: 4,410,198 × 6
 #>    region occupational_group  year type               group          n
 #>    <chr>  <chr>              <int> <chr>              <chr>      <dbl>
-#>  1 01001  111                 2016 social insurance   total        134
-#>  2 01001  111                 2016 social insurance   foreigners     6
-#>  3 01001  111                 2016 social insurance   women         48
-#>  4 01001  111                 2016 marginal part-time total         19
-#>  5 01001  111                 2016 marginal part-time foreigners    NA
-#>  6 01001  111                 2016 marginal part-time women          5
-#>  7 01001  111                 2017 social insurance   total         55
-#>  8 01001  111                 2017 social insurance   foreigners     4
-#>  9 01001  111                 2017 social insurance   women         12
-#> 10 01001  111                 2017 marginal part-time total         24
-#> # … with 2,131,190 more rows
+#>  1 01001  111                 2013 social insurance   total         39
+#>  2 01001  111                 2013 social insurance   foreigners     3
+#>  3 01001  111                 2013 social insurance   women         12
+#>  4 01001  111                 2013 marginal part-time total         25
+#>  5 01001  111                 2013 marginal part-time foreigners    NA
+#>  6 01001  111                 2013 marginal part-time women          9
+#>  7 01001  111                 2014 social insurance   total         42
+#>  8 01001  111                 2014 social insurance   foreigners     4
+#>  9 01001  111                 2014 social insurance   women         13
+#> 10 01001  111                 2014 marginal part-time total         23
+#> # ℹ 4,410,188 more rows
 
 unemployed_total
-#> # A tibble: 580,000 × 5
+#> # A tibble: 814,030 × 5
 #>    region occupational_group  year total women
 #>    <chr>  <chr>              <int> <dbl> <dbl>
 #>  1 01001  111                 2012  15.2  1.08
@@ -79,10 +80,10 @@ unemployed_total
 #>  8 01001  111                 2019  15.8  2.75
 #>  9 01001  111                 2020  19.7  2.17
 #> 10 01001  111                 2021  15.5  1.92
-#> # … with 579,990 more rows
+#> # ℹ 814,020 more rows
 
 unemployed_foreigners
-#> # A tibble: 580,000 × 5
+#> # A tibble: 814,030 × 5
 #>    region occupational_group  year total women
 #>    <chr>  <chr>              <int> <dbl> <dbl>
 #>  1 01001  111                 2012  1.92 0.917
@@ -95,10 +96,10 @@ unemployed_foreigners
 #>  8 01001  111                 2019  7.5  1.08 
 #>  9 01001  111                 2020  9.42 0.75 
 #> 10 01001  111                 2021  6    0.667
-#> # … with 579,990 more rows
+#> # ℹ 814,020 more rows
 
 jobs
-#> # A tibble: 581,450 × 5
+#> # A tibble: 816,060 × 5
 #>    region occupational_group  year  total social_insurance
 #>    <chr>  <chr>              <int>  <dbl>            <dbl>
 #>  1 01001  111                 2012 0.0833           0.0833
@@ -111,7 +112,7 @@ jobs
 #>  8 01001  111                 2019 0.0833           0.0833
 #>  9 01001  111                 2020 0.0833           0.0833
 #> 10 01001  111                 2021 0.25             0.25  
-#> # … with 581,440 more rows
+#> # ℹ 816,050 more rows
 ```
 
 Codes and full names of regions and occupational groups can be looked up
@@ -132,7 +133,7 @@ region_codes
 #>  8 01055 Ostholstein           
 #>  9 01056 Pinneberg             
 #> 10 01057 Plön                  
-#> # … with 391 more rows
+#> # ℹ 391 more rows
 
 occupational_group_codes
 #> # A tibble: 145 × 2
@@ -148,14 +149,14 @@ occupational_group_codes
 #>  8 121   Gartenbau                               
 #>  9 122   Floristik                               
 #> 10 211   Berg-, Tagebau und Sprengtechnik        
-#> # … with 135 more rows
+#> # ℹ 135 more rows
 ```
 
 ## Citation
 
 To cite package ‘badata’ in publications use:
 
-Nguyen HL, Tsolak D (2023). {badata}: Regional Job Market Data from the
+Nguyen HL, Tsolak D (2026). {badata}: Regional Job Market Data from the
 German Federal Employment Agency (Bundesagentur für Arbeit – BA).
 <https://doi.org/10.5281/zenodo.7636114>,
 <https://github.com/RegioHub/badata>
@@ -167,8 +168,8 @@ A BibTeX entry for LaTeX users is
     (Bundesagentur für Arbeit -- BA)},
       doi = {10.5281/zenodo.7636114},
       author = {H. Long Nguyen and Dorian Tsolak},
-      year = {2023},
-      version = {0.1.1},
+      year = {2026},
+      version = {0.2.0},
       url = {https://github.com/RegioHub/badata},
     }
 

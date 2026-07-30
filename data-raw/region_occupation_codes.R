@@ -1,12 +1,25 @@
 library(purrr)
 
+xlsx <- "data-raw/317-408036-ALO-OST-B-ZR.xlsx"
+sheet <- 2
+
+n_col <- ncol(readxl::read_xlsx(
+  xlsx,
+  sheet = sheet,
+  skip = 15,
+  col_names = FALSE,
+  n_max = 1,
+  .name_repair = "minimal"
+))
+
 codes_with_names <- readxl::read_xlsx(
-  "data-raw/317_334605_ALO_OST_B_JD.xlsx",
-  sheet = 2,
-  skip = 14,
+  xlsx,
+  sheet = sheet,
+  skip = 15,
   col_names = c("regions", "occupational_groups"),
-  col_types = c(rep_len("text", 2), rep_len("skip", 20))
+  col_types = c(rep_len("text", 2), rep_len("skip", n_col - 2))
 ) |>
+  dplyr::slice_head(n = -1) |> # "Erstellungsdatum: ..." / "© Statistik der Bundesagentur für Arbeit"
   as.list() |>
   map(discard, .p = \(x) is.na(x) || x == "Insgesamt") |>
   map(unique)

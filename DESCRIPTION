@@ -1,7 +1,7 @@
 Package: badata
 Title: Regional Job Market Data from the German Federal Employment Agency
     (Bundesagentur für Arbeit -- BA)
-Version: 0.1.3
+Version: 0.2.0
 Authors@R: c(
     person("H. Long", "Nguyen", , "long.nguyen@uni-bielefeld.de", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-8878-7386")),
@@ -9,15 +9,15 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-6695-6169"))
   )
 Description: Provides data about unemployed persons, employees, and jobs
-    in Germany from 2012 to 2021 by district (Kreis) and occupational
+    in Germany from 2012 to 2025 by district (Kreis) and occupational
     group.
 License: MIT + file LICENSE
 URL: https://github.com/RegioHub/badata, https://regiohub.github.io/badata/
 BugReports: https://github.com/RegioHub/badata/issues
 Depends: 
-    R (>= 2.10)
+    R (>= 3.5)
 Encoding: UTF-8
 LazyData: true
 LazyDataCompression: bzip2
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
+Config/roxygen2/version: 8.0.0

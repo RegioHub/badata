@@ -6,9 +6,9 @@
 \alias{employees_by_residence}
 \title{Data about employees}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 2131200 rows and 6 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 4410198 rows and 6 columns.
 
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 2131200 rows and 6 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 4410198 rows and 6 columns.
 }
 \usage{
 employees_by_workplace

@@ -6,9 +6,9 @@
 \alias{unemployed_foreigners}
 \title{Data about unemployed persons}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 580000 rows and 5 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 814030 rows and 5 columns.
 
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 580000 rows and 5 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 814030 rows and 5 columns.
 }
 \usage{
 unemployed_total

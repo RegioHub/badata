@@ -1,7 +1,8 @@
 library(tidyverse)
 source("data-raw/utils.R")
 
-xlsx <- "data-raw/317_334605_SvB_GeB.xlsx"
+xlsx_by_workplace <- "data-raw/317-408036-SvB-GeB-AO-KldB10.xlsx"
+xlsx_by_residence <- "data-raw/317-408036-SvB-GeB-WO-KldB10.xlsx"
 
 read_sheet <- function(xlsx, sheet) {
   col_names <- readxl::read_xlsx(xlsx,
@@ -13,11 +14,12 @@ read_sheet <- function(xlsx, sheet) {
   ) |>
     t() |>
     as_tibble(.name_repair = \(x) paste0("x", seq_along(x))) |>
+    mutate(x2 = na_if(x2, "darunter")) |>
     fill(x1, x2) |>
     mutate(
       x1 = case_when(
         x1 == "Region" ~ "region",
-        x1 == "Tätigkeit nach KldB 2010" ~ "occupational_group",
+        x1 == "Ausgeübte Tätigkeit nach KldB 2010" ~ "occupational_group",
         str_detect(x1, "^\\d{5}$") ~ x1 |>
           as.numeric() |>
           as.Date(origin = "1900-01-01") |>
@@ -26,14 +28,17 @@ read_sheet <- function(xlsx, sheet) {
         TRUE ~ x1
       ),
       x2 = case_when(
-        x2 == "Sv-pflichtig Beschäftigte" ~ "social insurance",
-        x2 == "Geringf. entlohnte Beschäftigte" ~ "marginal part-time",
+        x2 == "Sozialversicherungspflichtig Beschäftigte" ~ "social insurance",
+        x2 == "Geringfügig entlohnte Beschäftigte" ~ "marginal part-time",
         TRUE ~ x2
       ),
       x3 = case_when(
         x3 == "Insgesamt" ~ "total",
         x3 == "Ausländer" ~ "foreigners",
         x3 == "Frauen" ~ "women",
+        # The un-labeled/master sub-column (no "darunter" marker) implicitly
+        # means "total"; it's blank in the header rather than "Insgesamt".
+        is.na(x3) & !is.na(x2) ~ "total",
         TRUE ~ x3
       )
     ) |>
@@ -64,10 +69,10 @@ read_sheet <- function(xlsx, sheet) {
     relocate(n, .after = everything())
 }
 
-employees_by_workplace <- read_sheet(xlsx, 2)
+employees_by_workplace <- read_sheet(xlsx_by_workplace, 2)
 
 usethis::use_data(employees_by_workplace, overwrite = TRUE)
 
-employees_by_residence <- read_sheet(xlsx, 3)
+employees_by_residence <- read_sheet(xlsx_by_residence, 2)
 
 usethis::use_data(employees_by_residence, overwrite = TRUE)

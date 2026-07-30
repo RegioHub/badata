@@ -5,7 +5,7 @@
 \alias{jobs}
 \title{Data about jobs}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 581450 rows and 5 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 816060 rows and 5 columns.
 }
 \usage{
 jobs

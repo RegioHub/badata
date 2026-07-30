@@ -1,7 +1,7 @@
 library(tidyverse)
 source("data-raw/utils.R")
 
-xlsx <- "data-raw/317_334605_ALO_OST_B_JD.xlsx"
+xlsx <- "data-raw/317-408036-ALO-OST-B-ZR.xlsx"
 
 read_sheet <- function(xlsx, sheet, data_col_names) {
   stopifnot(length(data_col_names) == 2)
@@ -9,7 +9,7 @@ read_sheet <- function(xlsx, sheet, data_col_names) {
   col_names <- readxl::read_xlsx(xlsx,
     sheet = sheet,
     col_names = FALSE,
-    skip = 11,
+    skip = 12,
     n_max = 2,
     .name_repair = "minimal"
   ) |>
@@ -25,7 +25,7 @@ read_sheet <- function(xlsx, sheet, data_col_names) {
 
   readxl::read_xlsx(xlsx,
     sheet = sheet,
-    skip = 14,
+    skip = 15,
     col_names = col_names,
     na = c("", "-", "x")
   ) |>
