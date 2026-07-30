@@ -8,11 +8,12 @@
 - **Dorian Tsolak**. Author. [](https://orcid.org/0000-0001-6695-6169)
 
 - **Konstantin Wandel**. Author.
+  [](https://orcid.org/0009-0007-3321-7774)
 
 ## Citation
 
 Source:
-[`inst/CITATION`](https://github.com/RegioHub/badata/blob/v0.2.0/inst/CITATION)
+[`inst/CITATION`](https://github.com/RegioHub/badata/blob/main/inst/CITATION)
 
 Nguyen HL, Tsolak D, Wandel K (2026). {badata}: Regional Job Market Data
 from the German Federal Employment Agency (Bundesagentur für Arbeit --
